@@ -144,7 +144,7 @@ tasks.named<ShadowJar>("shadowJar") {
      * COMPATIBILIDAD DE ABI CON EL ECOSISTEMA DE DRAKESCRAFT
      *
      * Nuestro fork anterior (Slimefun4-Drake) repaqueto Slimefun entero a
-     * com.github.drakescraft_labs, y los ~40 addons de DrakesCraft-Labs estan compilados contra
+     * com.github.drakescraft_labs, y los ~40 addons de SlimefunNewHorizons estan compilados contra
      * ESOS nombres. Al desplegar este core con los paquetes originales, esos addons dejaron de
      * encontrar las clases y se cayeron: SFCalc, SensibleToolbox y DrakesSlimeMarket, ademas de
      * romper las integraciones de BreweryX y AxGraves.
