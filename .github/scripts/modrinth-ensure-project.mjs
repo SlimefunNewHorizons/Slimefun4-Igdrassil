@@ -9,7 +9,7 @@ const V3 = 'https://api.modrinth.com/v3';
 const TOKEN = process.env.MODRINTH_TOKEN;
 const SLUG = (process.env.PROJECT_SLUG || '').toLowerCase();
 const NOMBRE = process.env.PROJECT_NAME || SLUG;
-const RESUMEN = (process.env.PROJECT_SUMMARY || 'Addon de Slimefun4 para Paper 1.21.11.').slice(0, 256);
+const RESUMEN = (process.env.PROJECT_SUMMARY || 'Slimefun4-Igdrassil - High performance Paper 1.21.11 expansion for Slimefun4.').slice(0, 256);
 const ORG_PEDIDA = process.env.MODRINTH_ORG || '';
 
 if (!TOKEN) {
@@ -17,7 +17,7 @@ if (!TOKEN) {
   process.exit(1);
 }
 
-const cabeceras = { Authorization: TOKEN, 'User-Agent': 'DrakesCraft-Labs/publicador' };
+const cabeceras = { Authorization: TOKEN, 'User-Agent': 'SlimefunNewHorizons/publicador' };
 
 async function pedir(url, opciones = {}) {
   const r = await fetch(url, { ...opciones, headers: { ...cabeceras, ...(opciones.headers || {}) } });
@@ -70,15 +70,15 @@ if (!proyecto) {
     title: NOMBRE,
     description: RESUMEN,
     body: cuerpo,
-    categories: ['utility'],
+    categories: ['utility', 'technology', 'storage'],
     client_side: 'unsupported',
     server_side: 'required',
     project_type: 'mod',
     is_draft: true,
     license_id: process.env.PROJECT_LICENSE || 'GPL-3.0-only',
-    source_url: `https://github.com/DrakesCraft-Labs/${SLUG}`,
-    issues_url: `https://github.com/DrakesCraft-Labs/${SLUG}/issues`,
-    discord_url: 'https://discord.gg/rR7FbfCt9Y',
+    source_url: `https://github.com/SlimefunNewHorizons/${SLUG}`,
+    issues_url: `https://github.com/SlimefunNewHorizons/${SLUG}/issues`,
+    discord_url: 'https://discord.gg/6M8cz86vN7',
     initial_versions: [],
   };
 
@@ -117,9 +117,9 @@ console.log(`Proyecto en uso: ${proyecto.slug} (${proyecto.id})`);
 // --- Declaraciones de Contenido & Metadatos (Sección 5.9 y 4) -----------------------------
 try {
   const patchData = {
-    source_url: `https://github.com/DrakesCraft-Labs/${SLUG}`,
-    issues_url: `https://github.com/DrakesCraft-Labs/${SLUG}/issues`,
-    discord_url: 'https://discord.gg/rR7FbfCt9Y'
+    source_url: `https://github.com/SlimefunNewHorizons/${SLUG}`,
+    issues_url: `https://github.com/SlimefunNewHorizons/${SLUG}/issues`,
+    discord_url: 'https://discord.gg/6M8cz86vN7'
   };
   await fetch(`${V2}/project/${proyecto.id}`, {
     method: 'PATCH',
