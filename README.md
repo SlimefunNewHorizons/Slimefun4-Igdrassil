@@ -4,6 +4,13 @@
 > **Créditos y licencia.** Port y mantenimiento por [JackStar6677-1](https://github.com/JackStar6677-1) y [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Autores originales: [SlimefunGuguProject](https://github.com/SlimefunGuguProject) (upstream [SlimefunGuguProject/Slimefun4](https://github.com/SlimefunGuguProject/Slimefun4)), [TheBusyBiscuit](https://github.com/TheBusyBiscuit), [StarWishsama](https://github.com/StarWishsama), [WalshyDev](https://github.com/WalshyDev), [renovate-bot](https://github.com/renovate-bot), [Xzavier0722](https://github.com/Xzavier0722), [J3fftw1](https://github.com/J3fftw1), [LinoxGH](https://github.com/LinoxGH), [ybw0014](https://github.com/ybw0014), [svr333](https://github.com/svr333), [Alessio-Colombo](https://github.com/Alessio-Colombo), [SoSeDiK](https://github.com/SoSeDiK), [poma123](https://github.com/poma123), The Slimefun 4 Community (plugin.yml). Licencia original: **GNU General Public License v3.0**. Detalle en [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md).
 <!-- credits:end -->
 
+<!-- legacy-notice:start -->
+> [!WARNING]
+> **Legacy / Superseded Repository (Not Archived)**
+> **EN:** Historical Igdrassil fork of Slimefun4 (SlimefunGuguProject line). Active development has moved to [SlimefunNewHorizons/Slimefun6](https://github.com/SlimefunNewHorizons/Slimefun6) (active Paper/Purpur 1.21 → 26.2 core). This repository is intentionally kept unarchived for historical reference, upstream attribution, and git history.
+>
+> **ES:** Fork histórico de la etapa Igdrassil sobre Slimefun4 (línea SlimefunGuguProject). El desarrollo activo continúa en [SlimefunNewHorizons/Slimefun6](https://github.com/SlimefunNewHorizons/Slimefun6) (núcleo activo Paper/Purpur 1.21 → 26.2). Este repositorio se mantiene intencionalmente sin archivar como referencia histórica, atribución upstream e historial de git.
+<!-- legacy-notice:end -->
 # Slimefun 中文版
 
 > ### 🏰 ¡Únete a la Comunidad Oficial de DrakesCraft!
